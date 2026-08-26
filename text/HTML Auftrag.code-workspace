@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../HTML Auftrag"
+		},
+		{
+			"path": "../../../git copy/Kilian-repository1"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HTML Auftrag"
+	}
+}
