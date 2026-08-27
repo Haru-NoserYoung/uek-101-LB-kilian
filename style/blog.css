@@ -1,45 +1,12 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: ;
 }
 
 .hdr {
     background-color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
-}
-
-.title {
-     display:block;
-    width:fit-content;
-    color:rgb(36, 187, 174);
-    font-size: 500%;
-    text-align:center;
-    position: absolute;
-    top: 40%;
-    left: 43%;
-    font-weight: 1000;
-    background-color: rgb(0, 0, 0, 0.5)
-}
-
-.blogbtn {
-    text-decoration: none;
-    display:block;
-    background-color: rgb(0, 0, 0);
-    width:fit-content;
-    color:rgb(36, 187, 174);
-    font-size: 300%;
-    padding-left: 5%;
-    padding-right: 5%;
-    text-align:center;
-    position: absolute;
-    top: 60%;
-    left: 42%;
-    font-weight: 800;
-    
-}
-
-.blogbtn:hover {
-    color:blueviolet;
 }
 
 .logo {
@@ -105,15 +72,33 @@ body {
     background-color: blueviolet;
 }
 
+.bilder {
+    width:100%;
+    z-index: 1;
+}
+
+.blog {
+    display:block;
+    width: 20%;
+}
+
+.ttl {
+    z-index: 2;
+    position: relative;
+    background-color: rgb(0, 0, 0, 0.5);
+    color:rgb(36, 187, 174);
+    font-size: 400%;
+    width: 100%;
+    padding-left: 2%;
+    margin-bottom: 3%;
+
+}
+
+
 .ftr {
     background-color: rgb(0, 0, 0);
     display: flex;
-    justify-content:space-around;
-    padding-left:15%;
-    padding-right:10%;
-    height: 8%;
-    width:100%;
-
+    justify-content: space-around
 }
 
 .kontaktftr {
@@ -127,7 +112,8 @@ body {
     font-weight: 700;
     border:none;
     border-radius: 10%;
-    color:blueviolet
+    color:blueviolet;
+
 }
 
 .kontaktftr:hover {
@@ -157,5 +143,5 @@ body {
 /* Damit es mittig ist */
 .rechte{
     margin-left:10%;
-    color: grey;
+    color:grey;
 }
