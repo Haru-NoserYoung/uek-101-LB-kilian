@@ -1,0 +1,19 @@
+Allgemein:
+- Sind die Seiten responsiv? JA
+- Sind alle Elemente vom Wireframe vorhanden? JA
+
+Navbar/Footer:
+- Ist die Navigation funktional (collapsible)? JA
+- Ist der Header und Footer auf jeder Seite einheitlich? JA
+- Wurden die vorgegebenen Texte übernommen (z.B. Kontakt.txt)? JA
+- Ist das BS4-Dropdown nach rechts ausgerichtet (float-right)? JA aber nicht float-right
+- Wird das Logo im Header rund dargestellt? JA
+- Es sind keine Dead-Links vorhanden? JA
+- Die Fonts wurden korrekt angewendet? JA
+
+Kontakt-Formular:
+- Sind die Felder editierbar? JA
+- Stimmt die Tab-Reihenfolge? JA
+
+Hauptseite:
+- Wurde das Karussell mit den drei Bildern umgesetzt und ist es funktional? JA

@@ -10,6 +10,7 @@ body {
 
 .logo {
     background-color: rgb(36, 187, 174);
+    border-radius: 50%;
     width: fit-content;
     padding-left: 2%;
     padding-right: 2%;
@@ -86,7 +87,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(36, 187, 174);
-    width: 8%;
+    width: 10%;
     height: auto;
     font-weight: 700;
     border:none;
@@ -149,4 +150,40 @@ body {
 .rechte{
     margin-left:10%;
     color:grey
+}
+
+/* Handys*/
+@media (max-width: 480px) {
+
+    .kb {
+        font-size: 100%;
+        gap: 12px;
+    }
+
+    .kontakthdr,
+    .bloghdr {
+        font-size: 100%;
+    }
+
+    .form1 {
+        width: 92%;
+        zoom: 100%;
+        margin: 6% auto;
+    }
+
+    .kontaktftr {
+        width: 60%;
+        font-size: 85%;
+    }
+
+    .rechte {
+        font-size: 75%;
+    }
+
+    .insta,
+    .facebook,
+    .x,
+    .pinterest {
+        height: 24px;
+    }
 }
